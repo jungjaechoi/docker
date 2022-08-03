@@ -7,3 +7,7 @@ services:
       - "2181:2181"
     networks:
       - my-network
+
+networks:
+  my-network:
+    driver: bridge
